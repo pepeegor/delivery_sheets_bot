@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pandaexpress"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+sqlalchemy = "^2.0.36"
+aiogram = "^3.14.0"
+google-auth = "^2.36.0"
+google-auth-oauthlib = "^1.2.1"
+google-api-python-client = "^2.151.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
